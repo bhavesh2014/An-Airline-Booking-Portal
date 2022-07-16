@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+body {
+  background-image: url("https://www.worldatlas.com/r/w1200/upload/fb/46/c6/shutterstock-311421530.jpg");
+  background-repeat: no-repeat;
+}
+</style>
+<title>FlyAway (An Airline Booking Portal)</title>
+</head>
+<body>
+
+           <h1>Choose your Option</h1>
+    <nav>
+    <a  href = "SearchFlight"> Customer LogIn</a> <br>
+    <a  href = "adminlogin"> Adminstrator LogIn</a> <br>
+  </nav> <br>  <br><br>         
+   <nav>
+    <a  href = "admin"> Manage Logins</a> <br>
+    <a  href = "sourcedestination"> Manage Source And Destination </a> <br>
+    <a  href = "airlines"> Manage Airlines</a> <br><br><br>
+  </nav>
+   <form method= "post" action="add-user">
+   <fieldset>
+   <legend> Admin LogIn</legend>
+    <!--  User ID:<input type="text"  name="User_Id"/> <br/>-->
+    Email Address:<input type="text"  name="emailAddress"/> <br/>
+    
+ <!-- 
+   <p>
+   Select User Type:
+   <select name="types1">
+      <option value ="Test">Select</option>
+      <option value ="Customer">Customer</option>
+      <option value ="Admin">Admin</option>
+   </select>
+   </p>
+ -->  
+
+       <input type = "submit" value= "Save"/>
+   </fieldset>
+      
+   </form>
+</body>
+</html>
